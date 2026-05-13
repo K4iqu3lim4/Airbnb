@@ -14,13 +14,6 @@ body {
     display: flex;
 }
 
-.btn-link {
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    border: 0cm;
-}
-
 .btn-link > a {
     text-decoration: none;
 }
