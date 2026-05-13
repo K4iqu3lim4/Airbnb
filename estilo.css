@@ -10,7 +10,9 @@ body {
     justify-content: space-between;    
 }
 
-
+.links {
+    display: flex;
+}
 
 .btn-link {
     border-radius: 10px;
