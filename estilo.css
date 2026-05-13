@@ -18,6 +18,9 @@ body {
     display: flex;
     align-items: center;
     text-decoration: none; 
+    border: 0cap;
+    background: white;
+    padding: 10px 10px;
 }
 
 .btn-link > a {
