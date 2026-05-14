@@ -23,6 +23,16 @@ body {
     justify-content: space-between;
 }
 
+/* Barra de pesquisa */
+
+.pesquisa {
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
 /* LOGO */
 
 .logo-icone {
@@ -55,6 +65,8 @@ body {
     border: 0cm;
     background: #f5f5f5;
 }
+
+/* Parte da direita do cabeçalho */
 
 .right-cabecalho {
     display: flex;
