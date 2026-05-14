@@ -1,43 +1,86 @@
 body {
     background: gray;
+    margin: 0;
 }
 
-.logo-icone {
-    display: none;
-}
-
-/* Estilos para telas menores que 600px */
-
-@media (max-width: 600px) {
-    .logo-completa {
-        display: none;
-    }
-    .logo-icone {
-        display: block;
-    }
-}
+/* HEADER */
 
 .cabecalho {
     background: white;
-    padding: 10px;
+
+    padding: 10px 20px;
+
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
+
+/* LOGO */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* logo completa */
+
+.logo-completa {
+    height: 34px;
+    width: auto;
+
+    object-fit: contain;
+}
+
+/* ícone */
+
+.logo-icone {
+    height: 40px;
+    width: auto;
+
+    object-fit: contain;
+
+    display: none;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 800px) {
+
+    .logo-completa {
+        display: none;
+    }
+
+    .logo-icone {
+        display: block;
+    }
+
+}
+
+/* LINKS */
 
 .links {
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
+/* BOTÕES */
 
 .btn-link {
     display: flex;
     align-items: center;
-    text-decoration: none; 
-    border: 0cap;
+
+    text-decoration: none;
+
+    border: none;
     background: white;
-    padding: 10px 10px;
+
+    padding: 10px;
+
+    cursor: pointer;
 }
 
-.btn-link > a {
+.btn-link a {
     text-decoration: none;
+    color: black;
 }
