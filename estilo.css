@@ -10,21 +10,17 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #f5f5f5;
+    background: white;
 }
 
 /* CABEÇALHO */
 
 .cabecalho {
-    background: white;
-
-    padding: 15px 40px;
-
+    background: #f5f5f5;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    border-bottom: 1px solid #ddd;
 }
 
 /* LOGO */
@@ -37,20 +33,10 @@ body {
 /* LOGO COMPLETA */
 
 .logo-completa {
-    height: 32px;
-    width: auto;
+    padding: 0px 100px 0px 20px;
 }
 
-/* LOGO ÍCONE */
-
-.logo-icone {
-    height: 38px;
-    width: auto;
-
-    display: none;
-}
-
-/* LINKS */
+/* BOTÕES/LINKS */
 
 .links {
     display: flex;
@@ -58,17 +44,34 @@ body {
     gap: 20px;
 }
 
-/* BOTÕES/LINKS */
-
 .btn-link {
     text-decoration: none;
-
-    color: #222;
-
+    color: gray;
     font-size: 14px;
     font-weight: 500;
-
     transition: 0.2s;
+    display: flex;
+    align-items: center;
+    border: 0cm;
+    background: #f5f5f5;
+}
+
+.right-cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 30px 0px 0px;;
+}
+
+.right-cabecalho > a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-right {
+    padding: 10px;
+    border-radius: 100%;
+    border: none;
 }
 
 .btn-link:hover {
