@@ -2,6 +2,21 @@ body {
     background: gray;
 }
 
+.logo-icone {
+    display: none;
+}
+
+/* Estilos para telas menores que 600px */
+
+@media (max-width: 600px) {
+    .logo-completa {
+        display: none;
+    }
+    .logo-icone {
+        display: block;
+    }
+}
+
 .cabecalho {
     background: white;
     padding: 10px;
