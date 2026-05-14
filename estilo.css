@@ -25,9 +25,9 @@ body {
 
 /* LOGO */
 
-.logo {
-    display: flex;
-    align-items: center;
+.logo-icone {
+   width: 100%;
+   display: none;
 }
 
 /* LOGO COMPLETA */
