@@ -56,7 +56,13 @@ body {
 .btn-pesquisa {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
+
+.lupa {
+    margin-left: auto;
+}
+
 
 
 /* LOGO */
