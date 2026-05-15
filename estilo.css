@@ -58,11 +58,6 @@ body {
     align-items: center;
 }
 
-.btn-pesquisa > span {
-    display: flex;
-    flex-direction: column;
-}
-
 .lupa {
     margin-left: auto;
 }
