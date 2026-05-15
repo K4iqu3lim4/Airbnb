@@ -61,9 +61,9 @@ body {
 
 /* LOGO */
 
-.logo {
-    display: flex;
-    align-items: center;
+.logo-icone {
+   width: 100%;
+   display: none;
 }
 
 /* LOGO COMPLETA */
@@ -115,6 +115,20 @@ body {
 .btn-link:hover {
     opacity: 0.7;
 }
+
+/* CARDS */
+
+.acomodacoes{
+    padding: 40px;
+}
+
+.primeiro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 
 /* RESPONSIVO */
 
