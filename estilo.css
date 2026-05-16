@@ -177,12 +177,16 @@ body {
 
 .cards{
     display: flex;
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
     overflow-x: auto;
+    padding-bottom: 16px;
 }
 
 .card{
-    min-width: 280px;
+    min-width: 300px;
+    max-width: 100%; 
+    flex-shrink: 0;
 }
 
 .imagem-sequencia{
